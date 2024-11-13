@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
+
+.rectangle {
+  border: 1px solid hsl(217, 16%, 45%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 20px auto;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+.rectangle h2 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.847);
+}
+.rectangle .score {
+  border: 1px solid rgba(255, 255, 255, 0.847);
+  background-color: rgba(255, 255, 255, 0.943);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.rectangle .score h2 {
+  color: hsl(229, 64%, 46%);
+}
+.rectangle .score p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.choices {
+  text-align: center;
+  margin: 50px 0;
+}
+.choices .choice {
+  display: inline-block;
+  border: 8px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 0 15px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.872);
+}
+.choices .paper {
+  border: 8px solid hsl(230, 89%, 62%);
+}
+.choices .scissor {
+  border: 8px solid hsl(39, 89%, 49%);
+}
+.choices .rock {
+  border: 8px solid hsl(349, 71%, 52%);
+}
+
+.action-text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.button {
+  margin: 10px auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: hsl(229, 64%, 46%);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.333);
+}/*# sourceMappingURL=global.css.map */
